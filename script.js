@@ -483,9 +483,6 @@ if( !playermoving){
           }
           checkPlayerBossBulletCollision();
 moveBossBullets();
-  // Update the player's HP bar position
-    playerHPBar.style.left = `${playerX}px`;
-    playerHPBar.style.top = `${playerY + 110}px`; // Adjust the top position
 
    //  Update the player's HP bar width based on player's health
    const hpBarWidth = (playerHP / 100) * playerHPBar.parentElement.offsetWidth;
